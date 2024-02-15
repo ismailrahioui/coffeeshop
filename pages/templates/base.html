@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{%block title%}{%endblock%} Coffeesop</title>
+  </head>
+  <body>
+    {% include 'Partials/_navbar.html'%}
+    <h1>Base page</h1>
+    {%block content%}
+    <div></div>
+    {%endblock%} {%block scripts%}{%endblock%}
+  </body>
+</html>
